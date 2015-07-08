@@ -8,7 +8,13 @@
 * Takes several data types
 * Atomic commands - all clients aware of changes
 
-...even multiple clients issuing INCR against the same key will never enter into a race condition. For instance, it will never happen that client 1 reads "10", client 2 reads "10" at the same time, both increment to 11, and set the new value to 11. The final value will always be 12 and the read-increment-set operation is performed while all the other clients are not executing a command at the same time.
+```
+"...even multiple clients issuing INCR against the same key will never enter into a race condition. 
+For instance, it will never happen that client 1 reads "10", client 2 reads "10" at the same time, 
+both increment to 11, and set the new value to 11. The final value will always be 12 and the 
+read-increment-set operation is performed while all the other clients are not executing a 
+command at the same time."
+```
 
 * No dependencies!
 
