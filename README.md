@@ -1,13 +1,29 @@
 # Redis
 
-## TL;DR Overview
 
-* NoSQL, key-value storage database
-* Flexible and super fast( caching, different data types, etc.)
+## Why is it important?
+
+* NoSQL, key-value storage cache
+* Flexible and fast( caching, different data types, etc.)
 * Takes several data types
 * Atomic commands - all clients aware of changes
 * No dependencies!
-* Sweet docs and lots of clients for use
+
+
+## Roadblocks
+
+* Used by many clients in many languages 
+* Large spectrum of specific commands to datatypes ( good and bad )
+* Not often used as a primary database in Rails
+* Spent too much time trying to make chat work :(
+
+## Takeaways!
+
+* Has simple and complex use cases
+* Great for caching ( APIs, etc.)
+* Persists primarily in memory (FAST)
+* Flexible, and has simple powerful commands for cron jobs, pub/sub
+* Great docs!
 
 
 ## Set it up!
