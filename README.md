@@ -21,7 +21,7 @@
 
 * Has simple and complex use cases
 * Great for caching ( APIs, etc.)
-* Persists primarily in memory (FAST)
+* Persists primarily in memory (FAST) - but can also 'snapshot' to disk
 * Flexible, and has simple powerful commands for cron jobs, pub/sub
 * Great docs!
 
