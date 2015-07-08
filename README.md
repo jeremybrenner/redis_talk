@@ -233,7 +233,7 @@ OK
 * SMEMBERS <set> will return the set
 
 ```
-127.0.0.1:6379> SSAD catnames "Captain Whiskers" "Chairman Meow" "Eugene"
+127.0.0.1:6379> SADD catnames "Captain Whiskers" "Chairman Meow" "Eugene"
 (integer) 3
 
 127.0.0.1:6379> SREM catnames "Chairman Meow"
